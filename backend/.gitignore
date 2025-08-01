@@ -1,0 +1,12 @@
+# Python Environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment Variables
+.env
+
+# Python Specific
+*.egg-info/
+.pytest_cache/

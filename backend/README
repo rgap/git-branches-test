@@ -1,0 +1,27 @@
+# 🤖 Backend
+
+FastAPI server with **Gemini AI** for intelligent dataset analysis.
+
+## 🚀 Setup
+
+```bash
+# Activate environment & install dependencies
+source venv/bin/activate
+pip install -r requirements.txt
+
+# Configure AI in the .env file
+# GEMINI_API_KEY=your_key
+
+# Start server
+python service.py
+```
+
+### 🌐 Access Points
+
+- **API**: http://localhost:8000
+- **Docs**: http://localhost:8000/docs
+
+## 📊 API
+
+**`POST /analyze_dataset/`**  
+Upload CSV/Excel files → Get AI-powered insights
